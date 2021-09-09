@@ -1,0 +1,58 @@
+body{
+
+}
+
+#playerInfo {
+    background-color: rgb(192, 197, 202);
+    width: 70%;
+    float: left;
+    border: 3px rgb(80, 75, 75) solid;
+
+}
+
+h3{
+    margin-left: 1rem;
+    opacity: 1;
+}
+
+#playerImage {
+    margin-top: -0.1rem;
+    width: 16rem;
+}
+
+#folha{
+    margin: 20rem;
+    
+}
+/* TABELA */
+#data-table{
+    margin-top: -1.7rem;
+    width: 85.3%;
+    border-spacing: 0 0.5rem;
+    opacity: 0.8;
+
+}
+
+table thead {
+    height: 3.5rem;
+    background-color: rgb(155, 152, 152);
+    border: 3px rgb(80, 75, 75) solid;
+}
+
+
+#bodyoftable {
+    background-color: rgb(160, 160, 160);
+    height: 6rem;
+}
+
+#habilities{
+    margin-top: -0.5rem;
+    padding-top: 3rem;
+    height: 5rem;
+    text-align: center;
+    width: 84.9%;
+    background-color: rgb(114, 111, 111);
+    opacity: 0.8;
+    border: 3px rgb(80, 75, 75) solid;
+}
+ 
