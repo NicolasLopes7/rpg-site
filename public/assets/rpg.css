@@ -1,10 +1,7 @@
-body{
-
-}
 
 #playerInfo {
     background-color: rgb(192, 197, 202);
-    width: 70%;
+    width: 75.4rem;
     float: left;
     border: 3px rgb(80, 75, 75) solid;
 
@@ -17,7 +14,7 @@ h3{
 
 #playerImage {
     margin-top: -0.1rem;
-    width: 16rem;
+    width: 16.3rem;
 }
 
 #folha{
@@ -27,7 +24,7 @@ h3{
 /* TABELA */
 #data-table{
     margin-top: -1.7rem;
-    width: 85.3%;
+    width: 92.1rem;
     border-spacing: 0 0.5rem;
     opacity: 0.8;
 
@@ -50,9 +47,43 @@ table thead {
     padding-top: 3rem;
     height: 5rem;
     text-align: center;
-    width: 84.9%;
+    width: 91.7rem;
     background-color: rgb(114, 111, 111);
     opacity: 0.8;
     border: 3px rgb(80, 75, 75) solid;
 }
  
+/* Status */
+#section{
+    display:flex;
+}
+
+#vida {
+    border: 3px rgb(80, 75, 75) solid;
+    background-color: rgb(160, 25, 25);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+#sanidade {
+    border: 3px rgb(80, 75, 75) solid;
+    background-color: rgb(24, 24, 177);
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#status{
+    border: 3px rgb(80, 75, 75) solid;
+    background-color: gray;
+    margin-top: -1rem;
+    padding-left: 8rem ;
+    padding-right: 8rem ;
+}
+
+#card-status{
+    background-color: rgb(192, 185, 185);
+    margin-top: 2rem;
+}
+
