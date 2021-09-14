@@ -1,103 +1,19 @@
+/*ESSE CSS ESTÁ ASSOMBRADO! NÃO CODE AQUI*/
 
-.playerInfo {
-    background-color: red;
-    margin-bottom:20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
+.inf{
+    width: 960px;    
+    margin-left: 30px;
+    margin-top: 5px;
 }
-
-h3{
-    margin-left: 1rem;
-    opacity: 1;
-}
-
-#playerImage {
-    margin-top: -0.1rem;
-    width: 16.3rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-/* TABELA */
-#data-table{
-    margin-top: -1.7rem;
-    width: 85.5%;
-    border-spacing: 0 0.5rem;
-    opacity: 0.8;
-
-}
-
-table thead {
-    height: 3.5rem;
-    background-color: rgb(155, 152, 152);
+.stats{
+    background: linear-gradient(140deg, #b3a3ba 20%, rgba(141,118,154,1) 50%);
     border: 3px rgb(80, 75, 75) solid;
+    border-radius: 5px;
 }
 
-
-#bodyoftable {
-    background-color: rgb(160, 160, 160);
-    height: 6rem;
+.avatar{
+    display: block;
+    width: 51%;
+    border: 3px gray solid;
+    border-radius: 5px;
 }
-
-#habilities{
-    margin-top: -0.5rem;
-    padding-top: 3rem;
-    height: 5rem;
-    text-align: center;
-    width: 85.2%;
-    background-color: rgb(114, 111, 111);
-    opacity: 0.8;
-    border: 3px rgb(80, 75, 75) solid;
-}
- 
-/* Status */
-#section{
-    display:flex;
-}
-
-#vida {
-    text-align: center;
-    border: 3px rgb(80, 75, 75) solid;
-    background-color: rgb(160, 25, 25);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    color: white;
-    height: 20%;
-}
-
-#vidaS {
-    margin-top: -0.0001rem;
-}
-
-#sanidadeS{
-    margin-top: -0.0001rem;
-}
-
-#sanidade {
-    text-align: center;
-    
-    border: 3px rgb(80, 75, 75) solid;
-    background-color: rgb(24, 24, 177);
-    color: white;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 1rem;
-    height: 20%;
-}
-
-#status{
-    border: 3px rgb(80, 75, 75) solid;
-    background-color: gray;
-    margin-top: -1rem;
-    padding-left: 8rem ;
-    padding-right: 8rem ;
-}
-
-#card-status{
-    background-color: rgb(192, 185, 185);
-    margin-top: 2rem;
-}
-
