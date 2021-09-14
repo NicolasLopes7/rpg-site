@@ -1,10 +1,7 @@
 
-#playerInfo {
-    background-color: rgb(192, 197, 202);
-    width: 70%;
-    float: left;
-    border: 3px rgb(80, 75, 75) solid;
-    white-space: nowrap;
+.playerInfo {
+    background-color: red;
+    margin-bottom:20px;
     overflow: hidden;
     text-overflow: ellipsis;
 
