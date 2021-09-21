@@ -1,6 +1,13 @@
 /*ESSE CSS ESTÁ ASSOMBRADO! NÃO CODE AQUI*/
+*{
+    color: #fff;
 
-.inf{
+}
+body{
+    background-color: rgb(32, 32, 32) !important;
+}
+
+.rpg-card{
     width: 960px;    
     margin-left: 30px;
     margin-top: 5px;
@@ -16,4 +23,73 @@
     width: 51%;
     border: 3px gray solid;
     border-radius: 5px;
+}
+
+.atributes{
+    width: 740px;
+}
+
+.atributes > div{
+    border: 3px #b3a3ba solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.atrib{
+    margin-top: 10px;
+}
+
+.atrib .col-sm-5 {
+    max-width: 30%;
+}
+
+.atrib .col-sm-7{
+    padding-left: 0px;
+}
+
+.status{
+    border: 3px #b3a3ba solid;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.status p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.health-progress {
+    width: 150px;
+    height: 24px;
+    margin-bottom: -0.1px;
+    margin-top: -1.1px;
+    background-color: #db1313;
+}
+
+.sanity-progress{
+    width: 100px;
+    height: 24px;
+    margin-bottom: -0.1px;
+    background-color: #0404e4;
+    margin-top: -1.1px;
+}
+
+.health-progress span, .sanity-progress span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.health{
+    border: 1px #ad0e0e solid;
+    border-radius: 2px;
+}
+
+.sanity {
+    border: 1px #0202be solid;
+    margin-bottom: 5px;
+    border-radius: 2px;
 }
