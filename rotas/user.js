@@ -1,16 +1,16 @@
-const express = require("express")
-const app = express()
-const UserControllers = require("../controllers/userController")
+const express = require('express');
 
-app.get("/user", (req, res) => {
-    res.render("./rpg")
-})
+const app = express();
+const UserControllers = require('../controllers/userController');
 
-app.get("/user/create", (req, res) => {
+app.get('/user', (req, res) => {
+  res.render('./rpg');
+});
 
-})
+// app.get('/user/create', (req, res) => {
 
-app.post("/user/create" , UserControllers.create)
+// });
 
+app.post('/user/create', UserControllers.create);
 
-module.exports = app
+module.exports = app;

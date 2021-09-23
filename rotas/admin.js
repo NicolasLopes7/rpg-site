@@ -1,10 +1,9 @@
-const express = require("express")
-const app = express()
+const express = require('express');
 
+const app = express();
 
-app.get("/", (req,res) => {
-    res.render("./rpg")
-})
+app.get('/', (req, res) => {
+  res.render('./rpg');
+});
 
-
-module.exports = app
+module.exports = app;
